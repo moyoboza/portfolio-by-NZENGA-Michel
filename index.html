@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio de Michel NZENGA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header id="header">
+    <nav>
+      <ul>
+        <li><a onclick="showSection('accueil')">Accueil</a></li>
+        <li><a onclick="showSection('a-propos')">À propos</a></li>
+        <li><a onclick="showSection('cv')">Mon CV</a></li>
+        <li><a onclick="showSection('projets')">Mes Projets</a></li>
+        <li><a onclick="showSection('contact')">Mes Coordonnées</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil" class="active">
+    <div class="hero-content">
+      <h1>Michel NZENGA</h1>
+      <h2>Administrateur Système & DevOps</h2>
+      <p>
+        Passionné par l’automatisation, l’optimisation des infrastructures IT et la fiabilité des systèmes,
+        je combine des compétences solides en administration système, DevOps et réseaux télécom.
+        Actuellement en formation DevOps, je suis à la recherche d’une <strong>alternance</strong>
+        pour <strong>septembre 2025</strong>, afin de contribuer efficacement à vos projets IT tout en solidifiant mes competences .
+      </p>
+      <ul>
+        <li>🌐 Déploiement Cloud (AWS, Azure, GCP, OpenStack)</li>
+        <li>🛠️ Automatisation : Bash, Python, GitLab CI/CD, Jenkins , etc ...</li>
+        <li>🐧 Systèmes : Linux (Ubuntu, CentOS), Windows Server</li>
+        <li>📡 Réseaux : VPN, Nginx, HAProxy, Fibre optique</li>
+      </ul>
+      <a href="https://github.com/moyoboza/mon-cv" class="btn" target="_blank">Téléchargez mon CV</a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/michel-landry-kamwa-nzenga-639824289" target="_blank">LinkedIn</a>
+        <a href="https://github.com/moyoboza" target="_blank">GitHub</a>
+        <a href="mailto:kamwanzengamichellandry@gmail.com" target="_blank">Email</a>
+      </div>
+    </div>
+    
+  </section>
+  <section id="a-propos">
+  <h2>À propos de moi</h2>
+  <p>
+    Je m’appelle <strong>Michel NZENGA</strong>, passionné par l’univers des infrastructures IT, de l’automatisation et des technologies DevOps.
+    Mon parcours a débuté dans le domaine des réseaux télécoms, où j’ai acquis une base solide en installation fibre optique et maintenance d’équipements.
+    Curieux de nature et avide de montée en compétences, je me suis orienté vers l’administration système, puis vers le DevOps, un domaine en constante évolution qui mêle développement, infrastructure et automatisation.
+  </p>
+
+  <p>
+    Actuellement en <strong>formation DevOps</strong>, je renforce mes compétences en intégration continue, déploiement automatisé, sécurité système et cloud computing. Mes projets récents (CI/CD, migration base de données, sécurisation de serveurs...) m'ont permis de mettre en œuvre des solutions concrètes avec des outils comme <strong>GitLab CI/CD, Jenkins, Ansible, AWS</strong>, etc.
+  </p>
+
+  <p>
+    Je suis en recherche active d'une <strong>alternance à partir de septembre 2025</strong> afin de continuer à évoluer dans un environnement professionnel exigeant, contribuer à des projets techniques stimulants et devenir un véritable acteur de la fiabilité et performance des systèmes informatiques.
+  </p>
+
+  <ul>
+    <li>📌 Formation DevOps bientot achever</li>
+    <li>📚 Projets techniques en CI/CD, Linux, migration de base de données, pare-feu</li>
+    <li>🌍 En veille technologique constante, passionné par l’innovation IT</li>
+    <li>🎯 Objectif : devenir ingénieur cyber securiter, expert en automatisation</li>
+  </ul>
+</section>
+
+
+  <section id="cv">
+    <h2>Mon CV</h2>
+    <iframe src="mon-cv.pdf" width="100%" height="1000px" style="border: none;"></iframe>
+  </section>
+  
+
+  <section id="projets">
+    <h2>Mes Projets</h2>
+    <p>
+      Au fil de mes expériences, j’ai eu l’opportunité de participer à plusieurs projets concrets mêlant automatisation, sécurité, administration système et déploiement cloud.
+      Ces réalisations m'ont permis de consolider mes compétences DevOps tout en répondant à des problématiques réelles en entreprise.
+      Chaque projet a été une occasion d’apprendre, d’innover et de collaborer dans un environnement technique exigeant.
+    </p>
+    
+    <h3>🔁 Projet CI/CD complet</h3>
+    <p>Mise en place d’une pipeline d’intégration et de déploiement continu (GitLab CI/CD, Jenkins...)</p>
+    <iframe src="projet-ci-cd.pdf" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>
+  
+    <h3>🛡️ Sécurisation d’un serveur Linux</h3>
+    <p>Configuration d’un pare-feu avancé et durcissement du système.</p>
+    <iframe src="securisation-serveur.pdf" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>
+  
+    <h3>⚙️ Automatiser la création de serveurs</h3>
+    <p>Automatisation de la configuration et du déploiement de serveurs Linux.</p>
+    <iframe src="creation-serveur.pdf" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>
+  
+    <h3>💾 Migration de base de données</h3>
+    <p>Transfert sécurisé et optimisé d'une base PostgreSQL vers une nouvelle infrastructure.</p>
+    <iframe src="migration-database.pdf" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>
+  
+    <h3>🛠️ Maintenance et prévention</h3>
+    <p>Interventions sur les équipements réseau, rédaction de rapports, maintenance préventive.</p>
+    <iframe src="maintenance-prevention.pdf" width="100%" height="800px" style="border:1px solid #ccc;"></iframe>
+  </section>
+
+  <section id="contact">
+  <h2>📞 Mes Coordonnées</h2>
+  <p>Vous pouvez me contacter via les moyens suivants :</p>
+  <ul style="list-style: none; padding: 0;">
+    <li><strong>Téléphone :</strong> <a href="tel:+33784752520">07 84 75 25 20</a></li>
+    <li><strong>Email :</strong> <a href="mailto:kamwanzengamichellandry@gmail.com">kamwanzengamichellandry@gmail.com</a></li>
+    <li><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/michel-landry-kamwa-nzenga-639824289" target="_blank">Voir mon profil</a></li>
+    <li><strong>GitHub :</strong> <a href="https://github.com/moyoboza" target="_blank">Voir mes projets</a></li>
+  </ul>
+  <p>Je suis ouvert à toute opportunité de collaboration, échange ou mission DevOps à partir de septembre 2025.</p>
+</section>
+
+
+  <footer>
+    <p>© 2025 Portfolio by Michel NZENGA</p>
+  </footer>
+
+  <script>
+    const sections = document.querySelectorAll("section");
+
+    function showSection(id) {
+      sections.forEach(section => {
+        section.classList.remove("active");
+      });
+      document.getElementById(id).classList.add("active");
+    }
+
+    const header = document.getElementById('header');
+    header.addEventListener('mouseenter', () => header.style.padding = '15px 0');
+    header.addEventListener('mouseleave', () => header.style.padding = '5px 0');
+  </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('images/background-hero.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: rgba(0,0,0,0.6);
+  padding: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+section {
+  display: none;
+  padding: 50px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+section.active {
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #00b894;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin-right: 15px;
+  color: #00cec9;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+}
